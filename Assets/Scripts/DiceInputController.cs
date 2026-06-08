@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(PhysicsController))]
-public class KeyboardDiceTrigger : MonoBehaviour
+public class DiceInputController : MonoBehaviour
 {
     public DiceResultReader resultReader;
     private PhysicsController physicsController;

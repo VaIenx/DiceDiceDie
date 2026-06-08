@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03fa1528929544d4ab6cfb9a5bc5ca3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShakeDetector
-  DoubleTapInterval: 0.3
   resultReader: {fileID: 310790}
 --- !u!114 &310788
 MonoBehaviour:
@@ -201,7 +200,7 @@ MonoBehaviour:
   - {fileID: 1484656273}
   - {fileID: 594784494}
   ResultLabel: {fileID: 1389350521}
-  SleepThreshold: 0.02
+  SleepThreshold: 0
 --- !u!1 &61782620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,7 +3315,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ef63d789c263214418ee684234274321, type: 2}
+  - {fileID: 2100000, guid: c450fc1044f5a20458e79e97bb0a5fa3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3357,7 +3356,7 @@ Transform:
   m_GameObject: {fileID: 1484656271}
   serializedVersion: 2
   m_LocalRotation: {x: -0.9478143, y: -0.00088550936, z: -0.31881097, w: 0.0026325858}
-  m_LocalPosition: {x: -0.03459331, y: 2.9076328, z: 1.784855}
+  m_LocalPosition: {x: 0.14, y: 1.32, z: 1.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4751,7 +4750,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ef63d789c263214418ee684234274321, type: 2}
+  - {fileID: 2100000, guid: c450fc1044f5a20458e79e97bb0a5fa3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
